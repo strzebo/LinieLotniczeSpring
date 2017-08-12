@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/default">
+    <head lang="pl">
+        <meta charset="UTF-8"/>
+        <title>Strona główna</title>
+    </head>
+
+    <body>
+        <div layout:fragment="" class="header1">
+            <h1>Linie Lotnicze Pawełek i Bartuś Sp. z o.o.</h1>
+        </div>
+
+        <div class="header_container">
+            <div class="login">
+                <form>
+                    Login : <input type="text" class="login_box"/>
+                    &nbsp;
+                    Hasło : <input type="password" class="login_box"/>
+                    <br/><br/>
+                    <input type="submit" value="Zaloguj" align="right" class="login_button"/>
+                </form>
+                <form action="rejestracja.html">
+                    <input type="submit" value="Rejestracja" align="right" class="login_button"/>
+                </form>
+            </div>
+
+            <div class="jestes_tutaj">
+                <p>jesteś tutaj : <strong>Strona główna</strong> </p>
+            </div>
+        </div>
+
+
+
+        <div class="menu">
+            <br />
+            <br />
+
+            <div class="linia">
+                MENU
+            </div>
+
+            <div class="linia">
+                <div class="komorka">
+                    <a href="index.html">Strona główna</a>
+                </div>
+
+                <div class="komorka">
+                    <a href="panel_administratora.html">Panel pracownika</a>
+                </div>
+
+                <div class="komorka">
+                    <a href="panel_uzytkownika.html">Panel użytkownika</a>
+                </div>
+
+                <div class="komorka">
+                    <a href="trasy.html">Przeglądaj trasy</a>
+                </div>
+
+                <div class="komorka">
+                    <a href="kontakt.html">Kontakt</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim viverra sagittis. Cras efficitur lectus at nulla pulvinar, a tincidunt turpis ornare. Sed vitae nulla pellentesque, tincidunt tellus ut, condimentum neque. Praesent at tortor eu dolor ultricies hendrerit rutrum aliquet risus. Mauris pellentesque sem sit amet justo lobortis, sed maximus neque porta. Morbi eget velit vel lectus ullamcorper efficitur. Donec sit amet nisi ornare, mattis nulla vel, volutpat tortor. Ut eu risus enim.
+
+            Curabitur convallis, odio eu elementum malesuada, purus odio rhoncus lectus, at porttitor tellus ante sit amet nibh. Praesent sed vehicula lorem. Donec tincidunt, tortor non ultrices semper, sem nisl suscipit nisl, ut maximus eros diam a eros. Phasellus fermentum bibendum massa, accumsan tincidunt ante aliquam non. Ut at varius tortor. Nunc lacinia purus mattis nulla gravida sagittis. Fusce leo enim, ullamcorper in mattis nec, posuere non nunc. Aenean non pellentesque metus. Nulla faucibus, turpis id malesuada viverra, sapien ligula pellentesque dolor, ac egestas risus magna eget magna. Aliquam tellus nisl, scelerisque fringilla mauris in, bibendum aliquet quam. Nulla sit amet condimentum odio. Donec metus arcu, iaculis ut malesuada ac, dignissim ac erat. Praesent congue ligula non laoreet accumsan.
+
+            Curabitur ac quam quis leo viverra pretium nec quis dolor. Nunc a mauris dapibus, maximus justo at, mollis sem. Nulla pretium quam nisi, non tristique mi tincidunt sit amet. Integer posuere iaculis urna a sodales. Quisque tempor porttitor lorem sit amet lacinia. Morbi nibh ante, commodo finibus arcu quis, ultrices auctor mi. Duis volutpat a ex non cursus. Duis laoreet interdum viverra. Aliquam nisl mi, pellentesque vitae auctor non, fermentum non diam. Praesent sit amet ex convallis, sollicitudin purus dictum, laoreet sapien. Phasellus et velit et dui viverra sollicitudin. Sed vulputate velit ligula, sed consectetur sapien finibus eu. In a lacus leo. Suspendisse semper ac mauris nec varius. Aliquam ac egestas urna. Suspendisse at bibendum massa.
+
+            Sed ut mauris vehicula, faucibus odio a, lacinia nisl. Suspendisse gravida vehicula ornare. Morbi congue metus et consequat eleifend. Proin commodo elementum dui a semper. Vivamus interdum risus sapien. Morbi fermentum sapien tincidunt lorem laoreet molestie ac vitae velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In in tellus ex.
+
+            Suspendisse vitae aliquam eros. Fusce viverra enim nec orci scelerisque, eget viverra arcu mattis. Praesent est turpis, consequat vel tincidunt eu, gravida non ex. Donec malesuada ex id ligula porttitor finibus. Etiam nec ullamcorper nunc. Fusce et ex eros. Etiam pharetra tristique ipsum volutpat porttitor. Duis semper massa vel porta vehicula. Proin sed tortor feugiat, posuere purus vel, laoreet eros. Phasellus tempor interdum augue eu molestie. Sed pharetra ultricies felis id maximus. Praesent a odio et dui fermentum sollicitudin at eget lacus.
+        </div>
+
+
+        <div class="pozostale">
+            <strong>Warszawa</strong><br/>
+
+            <div id="minuta"><img src="../images/clock/minuta.png"/></div>
+            <div id="godzina"><img src="../images/clock/godzina.png"/></div>
+            <div id="sekunda"><img src="../images/clock/sekunda.png"/></div>
+            <div id="tarcza"><img src="../images/clock/tarcza.png"/></div>
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+            <strong>Tokio</strong><br/>
+            <div id="minutaTokio"><img src="../images/clock/minuta.png"/></div>
+            <div id="godzinaTokio"><img src="../images/clock/godzina.png"/></div>
+            <div id="sekundaTokio"><img src="../images/clock/sekunda.png"/></div>
+            <div id="tarczaTokio"><img src="../images/clock/tarcza.png"/></div>
+
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+            <strong>Los Angeles</strong><br/>
+            <div id="minutaLA"><img src="../images/clock/minuta.png"/></div>
+            <div id="godzinaLA"><img src="../images/clock/godzina.png"/></div>
+            <div id="sekundaLA"><img src="../images/clock/sekunda.png"/></div>
+            <div id="tarczaLA"><img src="../images/clock/tarcza.png"/></div>
+        </div>
+        <script type='text/javascript' src='../js/czas.js'/>
+    </body>
+
+</html>

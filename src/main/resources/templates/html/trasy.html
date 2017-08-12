@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" media="screen" />
+    <meta charset="UTF-8">
+
+    <title>Przegląd tras</title>
+</head>
+
+<body>
+<div class="header1">
+    <h1>Linie Lotnicze Pawełek i Bartuś Sp. z o.o.</h1>
+</div>
+
+<div class="header_container">
+    <div class="login">
+        <form action="login.html">
+            Login : <input type="text" class="login_box">
+            &nbsp;
+            Hasło : <input type="password" class="login_box">
+            <br/><br>
+            <input type="submit" value="Zaloguj" align="right" class="login_button">
+        </form>
+        <form action="rejestracja.html">
+            <input type="submit" value="Rejestracja" align="right" class="login_button">
+        </form>
+    </div>
+
+    <div class="jestes_tutaj">
+        <p>jesteś tutaj : <p1><strong>Przegląd tras</strong></p1> </p>
+    </div>
+</div>
+
+
+
+<div class="menu">
+    <br />
+    <br />
+
+    <div class="linia">
+        MENU
+    </div>
+
+    <div class="linia">
+        <div class="komorka">
+            <a href="index.html">Strona główna</a>
+        </div>
+
+        <div class="komorka">
+            <a href="panel_administratora.html">Panel pracownika</a>
+        </div>
+
+        <div class="komorka">
+            <a href="panel_uzytkownika.html">Panel użytkownika</a>
+        </div>
+
+        <div class="komorka">
+            <a href="trasy.html">Przeglądaj trasy</a>
+        </div>
+
+        <div class="komorka">
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+    </div>
+</div>
+
+<div class="page">
+    <form action="trasyWynik.html">
+        <div class="podzielTabele" >
+            Lotnisko startowe :  <br/>
+            Data odlotu : <br/><br/>
+        </div>
+        <div class="podzielTabele">
+            <input type="text" name="startowe"><br>
+            <input type="text" name="odlot"> <br/><br>
+
+            <input type="submit" value="Wyszukaj!">
+        </div>
+        <div class="podzielTabele">
+            Lotnisko docelowe : <br/>
+            Data przylotu : <br/>
+        </div>
+        <div>
+            <input type="text" name="docelowe"> <br/>
+            <input type="text" name="przylot"> <br/>
+        </div>
+        <div class="podzielTabele">
+
+        </div>
+    </form>
+</div>
+
+<div class="pozostale">
+    <strong>Warszawa</strong><br/>
+
+    <div id="minuta"><img src="../images/clock/minuta.png"></div>
+    <div id="godzina"><img src="../images/clock/godzina.png"></div>
+    <div id="sekunda"><img src="../images/clock/sekunda.png"></div>
+    <div id="tarcza"><img src="../images/clock/tarcza.png"></div>
+
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+    <strong>Tokio</strong><br/>
+    <div id="minutaTokio"><img src="../images/clock/minuta.png"></div>
+    <div id="godzinaTokio"><img src="../images/clock/godzina.png"></div>
+    <div id="sekundaTokio"><img src="../images/clock/sekunda.png"></div>
+    <div id="tarczaTokio"><img src="../images/clock/tarcza.png"></div>
+
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+    <strong>Los Angeles</strong><br/>
+    <div id="minutaLA"><img src="../images/clock/minuta.png"></div>
+    <div id="godzinaLA"><img src="../images/clock/godzina.png"></div>
+    <div id="sekundaLA"><img src="../images/clock/sekunda.png"></div>
+    <div id="tarczaLA"><img src="../images/clock/tarcza.png"></div>
+</div>
+
+<script type='text/javascript' src='../js/czas.js'></script>
+</body>
+</html>
