@@ -3,12 +3,13 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorator="layout/default">
     <head lang="pl">
+        <link rel="stylesheet" type="text/css" href="../css/styles.css" media="screen" />
         <meta charset="UTF-8"/>
         <title>Strona główna</title>
     </head>
 
     <body>
-        <div layout:fragment="content" class="header1">
+        <div layout:replace="" class="header1">
             <h1>Linie Lotnicze Pawełek i Bartuś Sp. z o.o.</h1>
         </div>
 
@@ -47,11 +48,11 @@
                 </div>
 
                 <div class="komorka">
-                    <a href="panel_administratora.html">Panel pracownika</a>
+                    <a href="panelAdministratora.html">Panel pracownika</a>
                 </div>
 
                 <div class="komorka">
-                    <a href="panel_uzytkownika.html">Panel użytkownika</a>
+                    <a href="panelUzytkownika.html">Panel użytkownika</a>
                 </div>
 
                 <div class="komorka">
